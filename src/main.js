@@ -22,8 +22,8 @@ new Vue({
   render: h => h(App2)
 })
 
-new Vue({
-  render(h) {
-    return h(Counter);
-  }
-}).$mount('#counter')
+// new Vue({
+//   render(h) {
+//     return h(Counter);
+//   }
+// }).$mount('#counter')

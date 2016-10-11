@@ -1,21 +1,20 @@
 <template>
     <div>
-        <app style="float: left; margin-right: 20px" v-for="c in numbers"></app>
-        <div style="clear: left"></div>
+        <counter style="margin-right: 20px" v-for="c in numbers"></counter>
     </div>
 </template>
 
 <script>
 
-import App from './App.vue'
+import Counter from './Counter.vue'
 
     export default {
         name: 'App2',
         components: {
-            App
+            Counter
         },
         mounted(){
-            this.setNumbers(4)
+            this.setNumbers(100)
         },
         data() {
             return {
